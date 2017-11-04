@@ -4,7 +4,7 @@ import time
 from curses import wrapper
 
 length = 80
-width = 24
+width = 30
 
 def init():
     stdscr = curses.initscr()
