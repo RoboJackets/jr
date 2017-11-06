@@ -16,7 +16,7 @@ Replace `gburdell3` with your GT username anywhere it appears in this list.
 
 - [ ] Star this repository.
 - [ ] Create a fork of this repository.
-- [ ] Make a copy of that repository that lives on your computer instead of on a GitHub server somewhere. Don’t forget, this version of the repo is connected to the remote version so that changes can be synced between the two.
+- [ ] Clone your fork to your computer.
 - [ ] Set your forked repository as a remote named `origin`.
 - [ ] Set our repository as a remote named `rj`.
 - [ ] Create a branch named your GT username (ex. `gburdell3`).
