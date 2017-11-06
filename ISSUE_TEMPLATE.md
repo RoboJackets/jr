@@ -16,7 +16,7 @@ You can, of course, also flag down an instructor if you run into anything.
 - [ ] Make a copy of that repository that lives on your computer instead of on a github server somewhere. Don’t forget, this version of the repo is connected to the remote version so that changes can be synced between the two.
 - [ ] Set your forked repository as a remote named origin
 - [ ] Set our repository as a remote named rj
-- [ ] Create a new parallel version of the repository named your gt username (ex. gburdell3)
+- [ ] Create a branch named your gt username (ex. gburdell3)
 - [ ] Use the terminal to create a folder named “2017” in the root of the repo
 - [ ] Use the terminal to create an empty text file named yourgtusername.txt in the 2017 folder
 - [ ] Stage/commit the file (make sure you leave good commit messages)
