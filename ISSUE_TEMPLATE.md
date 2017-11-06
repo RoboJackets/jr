@@ -12,7 +12,7 @@ You can, of course, also flag down an instructor if you run into anything.
 
 ## Your objectives
 - [ ] Star this repository
-- [ ] Make a personal copy of the repo that will live on your GitHub account. This allows you to freely make changes to the project without affecting the original. Your copy will remain associated with the original, allowing you to submit a pull request to the original author.
+- [ ] Create a fork of this repository
 - [ ] Make a copy of that repository that lives on your computer instead of on a github server somewhere. Don’t forget, this version of the repo is connected to the remote version so that changes can be synced between the two.
 - [ ] Set your forked repository as a remote named origin
 - [ ] Set our repository as a remote named rj
