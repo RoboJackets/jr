@@ -1,6 +1,6 @@
 # Week 7: Git Challenge
 
-Welcome to week 7 of software training! This week, you'll be completing a series of `git` and GitHub challenges. **To get started, click the "Submit new issue" at the bottom of this page!** From there, work through the rest of this checklist.
+Welcome to week 7 of software training! This week, you'll be completing a series of `git` and GitHub challenges. **To get started, type your GT username into the Title box above, then click the "Submit new issue" at the bottom of this page!** From there, work through the rest of this checklist.
 
 If you need any help, we recommend these online resources:
 - https://help.github.com/articles/github-glossary/
