@@ -21,7 +21,7 @@ You can, of course, also flag down an instructor if you run into anything.
 - [ ] Use the terminal to create an empty text file named yourgtusername.txt in the 2017 folder
 - [ ] Stage/commit the file (make sure you leave good commit messages)
 - [ ] Create a new branch named gtusername/add-text
-- [ ] Add some ASCII art to your file (no longer than 30 lines) on that branch and merge it into the gtusername branch
+- [ ] Add some ASCII art to your file (no longer than 30 lines, no more than 80 characters per line) on that branch and merge it into the gtusername branch
 - [ ] Make a merge conflict happen between yourgtusername and a branch named yourgtusername/merge-conflict. Then, resolve it
 - [ ] Create two branches named b1 and b2
 - [ ] Commit a file called stuff1.txt in b1
