@@ -32,4 +32,4 @@ You can, of course, also flag down an instructor if you run into anything.
 - [ ] Take the changes from b1 and apply them to yourgtusername (this should not cause a merge conflict)
 - [ ] Delete all local branches not named master or yourgtusername
 - [ ] Send your committed changes to your fork’s gtusername remote branch
-- [ ] Create a pull request from your fork’s gtusername branch to our master branch and request one of us for review (if you try to merge it you won’t be able to because permissions)
+- [ ] Create a pull request from your fork’s gtusername branch to our master branch and ask one of the instructors in your session to approve it (if you try to merge it you won’t be able to because permissions). **In your pull request description, add a line that says "Fixes #xx" where #xx is the number of the issue you created.** This will auto-close your issue once your pull request is merged.
