@@ -61,7 +61,7 @@ def main(stdscr):
     frames.append(parseFile(open("required/jason.txt", "r")))
     emptyFile = []
     for i in range(height):
-        emptyFile.append([" "] * 80)
+        emptyFile.append([" "] * width)
     frames.append(emptyFile)
     for start_col in range((len(frames) - 1) * width):
         for col in range(width):
