@@ -20,7 +20,7 @@ You can, of course, also flag down an instructor if you run into anything.
 - [ ] Use the terminal to create a folder named “2017” in the root of the repo
 - [ ] Use the terminal to create an empty text file named yourgtusername.txt in the 2017 folder
 - [ ] Stage/commit the file (make sure you leave good commit messages)
-- [ ] Create a new branch named gtusername/add-text
+- [ ] Create a new branch from master named gtusername/add-text
 - [ ] Add some ASCII art to your file (no longer than 30 lines, no more than 80 characters per line) on that branch and merge it into the gtusername branch
 - [ ] Make a merge conflict happen between yourgtusername and a branch named yourgtusername/merge-conflict. Then, resolve it
 - [ ] Create two branches named b1 and b2
@@ -29,7 +29,7 @@ You can, of course, also flag down an instructor if you run into anything.
 - [ ] Take the changes from b1 and apply them to b2
 - [ ] In b2, delete both files and commit the changes
 - [ ] Take the changes from b2 and apply them to b1
-- [ ] Take the changes from b1 and apply them to yourgtusername (this should not cause a merge conflict)
+- [ ] Take the changes from b1 and apply them to the yourgtusername/add-text branch (this should not cause a merge conflict)
 - [ ] Delete all local branches not named master or yourgtusername
 - [ ] Send your committed changes to your fork’s gtusername remote branch
 - [ ] Create a pull request from your fork’s gtusername branch to our master branch and ask one of the instructors in your session to approve it (if you try to merge it you won’t be able to because permissions). **In your pull request description, add a line that says "Fixes #xx" where #xx is the number of the issue you created.** This will auto-close your issue once your pull request is merged.
