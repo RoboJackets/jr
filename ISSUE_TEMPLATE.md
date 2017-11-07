@@ -23,7 +23,7 @@ Replace `gburdell3` with your GT username anywhere it appears in this list.
 - [ ] Use the terminal to create a folder named `2017` in the root of the repo.
 - [ ] Use the terminal to create an empty text file named `gburdell3.txt` in the `2017` folder.
 - [ ] Stage and commit the file (make sure you leave good commit messages!)
-- [ ] Create a new branch from master named `gburdell3/add-text`.
+- [ ] Create a new branch from `gburdell3` named `gburdell3-add-text`.
 - [ ] Add some ASCII art to your file (no longer than 30 lines, no more than 80 characters per line) on that branch and merge it into the `gburdell3` branch.
 - [ ] Make a merge conflict happen between `gburdell3` and a branch named `gburdell3/merge-conflict`.
 - [ ] Resolve the merge conflict.
