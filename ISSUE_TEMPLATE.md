@@ -1,6 +1,6 @@
-# Week 7: Git Challenge
+# Week 1: Git/GitHub Exercises
 
-Welcome to week 7 of software training! This week, you'll be completing a series of `git` and GitHub challenges. **To get started, type your GT username into the Title box above, then click the "Submit new issue" at the bottom of this page!** From there, work through the rest of this checklist.
+Welcome to week 1 of software training! This week, you'll be completing a series of `git` and GitHub exercises to get used to using `git` and the terminal. **To get started, type your GT username into the Title box above, then click the "Submit new issue" at the bottom of this page!** From there, work through the rest of this checklist.
 
 If you need any help, we recommend these online resources:
 - https://help.github.com/articles/github-glossary/
@@ -20,8 +20,8 @@ Replace `gburdell3` with your GT username anywhere it appears in this list.
 - [ ] 4. Set your forked repository as a remote named `origin`.
 - [ ] 5. Set our repository as a remote named `rj`.
 - [ ] 6. Create a branch named your GT username (ex. `gburdell3`).
-- [ ] 7. Use the terminal to create a folder named `2017` in the root of the repo.
-- [ ] 8. Use the terminal to create an empty text file named `gburdell3.txt` in the `2017` folder.
+- [ ] 7. Use the terminal to create a folder named `2018` in the root of the repo. (skip if it already exists)
+- [ ] 8. Use the terminal to create an empty text file named `gburdell3.txt` in  the `2018` folder.
 - [ ] 9. Stage and commit the file (make sure you leave good commit messages!)
 - [ ] 10. Create a new branch from `gburdell3` named `gburdell3-add-text`.
 - [ ] 11. Add some ASCII art to your file (no longer than 30 lines, no more than 80 characters per line) on that branch and merge it into the `gburdell3` branch. Use spaces, not tabs, for indentation in your art, as tabs may distort your image in jr.
