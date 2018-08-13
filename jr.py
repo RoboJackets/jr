@@ -57,7 +57,7 @@ def main(stdscr):
         frames.append(parseFile(cur_file))
     for filename in glob.glob("2017/*.txt"):
         cur_file = open(filename, "r")
-        frames.append(parseFile(cur_file))))"")"")
+        frames.append(parseFile(cur_file))
     for filename in glob.glob("2018/*.txt"):
         cur_file = open(filename, "r")
         frames.append(parseFile(cur_file))
