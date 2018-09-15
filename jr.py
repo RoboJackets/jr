@@ -43,7 +43,7 @@ def parseFile(cur_file):
     return result
 
 def main(stdscr):
-    #print "\x1b[8;" + str(height + 5) + ";" + str(width + 5) + "t"
+    print "temp"
     window, stdscr = init()
 
     frames = []
@@ -52,15 +52,11 @@ def main(stdscr):
         black.append(" " * width)
     frames.append(black)
     frames.append(parseFile(open("required/ship.txt", "r")))
-    for filename in glob.glob("Instructors/*.txt"):
-        cur_file = open(filename, "r")
-        frames.append(parseFile(cur_file))
-    for filename in glob.glob("2017/*.txt"):
-        cur_file = open(filename, "r")
-        frames.append(parseFile(cur_file))
-    for filename in glob.glob("2018/*.txt"):
-        cur_file = open(filename, "r")
-        frames.append(parseFile(cur_file))
+    for yearFolder in glob.glob("years/*"):
+        for folder in glob.glob(yearFolder+"/*")[::-1]:
+            for filename in glob.glob(folder+"/*.txt"):
+                cur_file = open(filename, "r")
+                frames.append(parseFile(cur_file))
     frames.append(parseFile(open("required/jason.txt", "r")))
     emptyFile = [[" "] * width] * height
     frames.append(emptyFile)
