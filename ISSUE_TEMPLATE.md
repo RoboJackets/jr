@@ -20,15 +20,15 @@ Replace `gburdell3` with your GT username anywhere it appears in this list.
 - [ ] 4. Set your forked repository as a remote named `origin`.
 - [ ] 5. Set our repository as a remote named `rj`.
 - [ ] 6. Create a branch named your GT username (ex. `gburdell3`).
-- [ ] 7. Use the terminal to create a folder named `2018` in the root of the repo. (skip if it already exists)
-- [ ] 8. Use the terminal to create an empty text file named `gburdell3.txt` in the `2018` folder.
+- [ ] 7. Use the terminal to create a folder called "Students" in `years/2018`
+- [ ] 8. Use the terminal to create an empty text file named `gburdell3.txt` in the `years/2018/Students` folder.
 - [ ] 9. Stage and commit the file (make sure you leave good commit messages!)
 - [ ] 10. Create a new branch from `gburdell3` named `gburdell3-add-text`.
 - [ ] 11. Add some ASCII art to your file (no longer than 30 lines, no more than 80 characters per line) on that branch and merge it into the `gburdell3` branch. Use spaces, not tabs, for indentation in your art, as tabs may distort your image in jr.
 - [ ] 12. Create two branches named `b1` and `b2`.
 - [ ] 13. Commit a file called `stuff1.txt` in `b1`.
 - [ ] 14. Commit a file called `stuff2.txt` in `b2`.
-- [ ] 15. Take the changes from `b1` and apply them to `b2`.
+- [ ] 15. Take the changes from `b1` and apply them to `b2`. (hint: merge)
 - [ ] 16. In `b2`, delete both files and commit the changes.
 - [ ] 17. Merge `b2` into `b1`.
 - [ ] 18. Merge `b1` into `gburdell3` (this should not cause a merge conflict).
