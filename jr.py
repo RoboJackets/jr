@@ -1,7 +1,7 @@
 import glob
 import curses
 import time
-from curses import wrapper
+import sys
 
 width = 80
 height = 30
@@ -43,8 +43,12 @@ def parseFile(cur_file):
     return result
 
 def main(stdscr):
-    print "temp"
     window, stdscr = init()
+
+    if len(sys.argv) > 1:
+        year_key = sys.argv[1]
+    else:
+        year_key = "*"
 
     frames = []
     black = []
@@ -52,7 +56,7 @@ def main(stdscr):
         black.append(" " * width)
     frames.append(black)
     frames.append(parseFile(open("required/ship.txt", "r")))
-    for yearFolder in glob.glob("years/*"):
+    for yearFolder in glob.glob("years/" + year_key):
         for folder in glob.glob(yearFolder+"/*")[::-1]:
             for filename in glob.glob(folder+"/*.txt"):
                 cur_file = open(filename, "r")
@@ -69,4 +73,4 @@ def main(stdscr):
     destruct(window, stdscr)
 
 if __name__ == "__main__":
-    wrapper(main)
+    curses.wrapper(main)
