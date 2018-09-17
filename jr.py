@@ -1,10 +1,11 @@
-import glob
 import curses
-import time
+import glob
 import sys
+import time
 
 width = 80
 height = 30
+
 
 def init():
     stdscr = curses.initscr()
@@ -16,20 +17,22 @@ def init():
     window = curses.newwin(width, height, 0, 0)  # create a window
     if term_height <= height or term_width <= width:
         destruct(stdscr, window)
-        print "\x1b[8;" + str(height + 1) + ";" + str(width + 1) + "t"
+        print("\x1b[8;" + str(height + 1) + ";" + str(width + 1) + "t")
         time.sleep(1)
         stdscr, window = init()
-        #quit()
+        # quit()
 
     window.box()       # Draw the box outside the window
     stdscr.clear()
     return window, stdscr
+
 
 def destruct(window, stdscr):
     curses.nocbreak()
     stdscr.keypad(False)
     curses.echo()
     curses.endwin()
+
 
 def parseFile(cur_file):
     result = []
@@ -41,6 +44,7 @@ def parseFile(cur_file):
         for i in range(height - len(result)):
             result.append(" " * width)
     return result
+
 
 def main(stdscr):
     window, stdscr = init()
